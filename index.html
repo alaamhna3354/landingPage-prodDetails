@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="ar">
+
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="Creative & Minimal Agency Web Template" />
+  <title>متجر الموجه للكومبيوتر </title>
+  <link rel="icon" type="image/png" href="/favicon.png" />
+  <link rel="stylesheet" href="css/style.css">
+  <link rel="icon" href="data:;base64,iVBORw0KGgo="> <!-- for prevent favicon.ico requests -->
+  <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css" integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous"/>
+</head>
+
+<body >
+  
+<section class="product">
+  <div class="top">
+    <div class="logo"><a href="https://almuwajeh.net/" target="_blank"><img src="img/logo.png" alt="logo"></a></div>
+    <h1 class="lang"><a href="index-ar.php">عربي</a></h1>
+  </div>
+  
+	<div class="lap-slide">
+    <div class="swiper-container gallery-top">
+      <h1 style="text-align: center;"> Lenovo V15  N4020</h1>
+      <div class="swiper-wrapper">
+        <div class="swiper-slide " >
+        
+        <img src="img/lenovo.jpg" alt="" style="height: 100%;">
+        </div>
+        <div class="swiper-slide" >
+          <img src="img/lenovo2.jpg" alt="" style="height: 100%;">
+          </div>
+          <div class="swiper-slide " >
+            <img src="img/bac.jpg" alt="" style="height: 100%;">
+          </div>
+          <div class="swiper-slide " >
+            <img src="img/hea.jpg" alt="" style="height: 100%;">
+          </div>
+          <div class="swiper-slide s-mou" >
+            <img src="img/mouse.jpg" alt="" style="height: 100%;">
+          </div>
+      </div>
+      <!-- Add Arrows -->
+      <div class="swiper-button-next swiper-button-white"></div>
+      <div class="swiper-button-prev swiper-button-white"></div>
+    </div>
+    <div class="swiper-container gallery-thumbs">
+      <div class="swiper-wrapper" >
+        <div class="swiper-slide" style="background-image:url(img/lenovo.jpg)"></div>
+        <div class="swiper-slide" style="background-image:url(img/lenovo2.jpg)"></div>
+        <div class="swiper-slide" style="background-image:url(img/bac.jpg)"></div>
+        <div class="swiper-slide" style="background-image:url(img/hea.jpg)"></div>
+        <div class="swiper-slide" style="background-image:url(img/mouse.jpg)"></div>
+      </div>
+    </div>
+  
+  </div>
+	<div class="product__info">
+		<div class="title">
+			<h1><span class="blue-text">LENOVO LAPTOP</span> WORK AND STUDENTS </h1>
+      <h2>WITH <span class="red-text">FREE</span> LAPTOP BAG, WIRELESS MOUSE, HEADSET</h2>
+		</div>
+		<div class="price">
+			 <span>1250</span>   AED
+       <h3>Free delivery within 24 hours in Al Ain</h3>
+		</div>
+		<div class="description">
+			<ul>
+				<li>Lenovo laptop with Celeron processor</li>
+				<li><span class="blue-text">15.6 inch</span> screen</li>
+				<li>Random Access Memory (RAM) 4 GB</li>
+				<li>Hard disk <span class="blue-text">256 GB</span></li>
+			</ul>
+		</div>
+    <ul class="fut">
+      <li><img src="img/FAST-DELIVERY.png" alt=""> Fast Delivery</li>
+      <li><img src="img/CASH.png" alt="">Cash</li>
+      <li><img src="img/PICK-UP.png" alt="">Pick Up</li>
+    </ul>
+      <div class="add">
+        <a href="https://wa.me/971556655434?text=Hello,%20I%20saw%20the%20offer%20for%20Lenovo%20laptop,%20I%20would%20like%20to%20order%20this%20offer" target="_blank">	
+          <button class="buy--btn">Get Now <i class="fab fa-whatsapp" aria-hidden="true"></i></button>
+        </a>
+        <a href="https://almuwajeh.net/en/home/145-lenovo-v15-n4020-laptop-celeron-11-ghz-4gb-ram256gb-ssd156-screen.html" target="_blank">	
+          <button class="buy--btn buy--btn2">Get Web <i class="fas fa-laptop"></i></button>
+        </a>
+      </div>
+	</div>
+  <a class="wahts" href="https://wa.me/971556655434?text=Hello,%20I%20saw%20the%20offer%20for%20Lenovo%20laptop,%20I%20would%20like%20to%20order%20this%20offer" target="_blank">	
+    <button class="buy--btn"><i class="fab fa-whatsapp" aria-hidden="true"></i></button>
+  </a>
+</section>
+<!-- <i class="fas fa-globe" ></i> -->
+  <!-- End Portfolio -->
+  <script src="js/main.js"></script>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/Swiper/4.5.0/js/swiper.min.js"></script>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Swiper/4.5.0/css/swiper.min.css">
+  <script>
+    var galleryThumbs = new Swiper('.gallery-thumbs', {
+      spaceBetween: 10,
+      slidesPerView: 4,
+      freeMode: true,
+      watchSlidesVisibility: true,
+      watchSlidesProgress: true,
+    });
+    var galleryTop = new Swiper('.gallery-top', {
+      spaceBetween: 10,
+      slidesPerView: 1,
+      navigation: {
+        nextEl: '.swiper-button-next',
+        prevEl: '.swiper-button-prev',
+      },
+      thumbs: {
+        swiper: galleryThumbs
+      }
+    });
+  </script>
+</body>
+
+</html>
